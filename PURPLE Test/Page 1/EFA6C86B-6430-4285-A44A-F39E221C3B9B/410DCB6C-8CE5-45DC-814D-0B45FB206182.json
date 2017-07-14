@@ -35,55 +35,7 @@
     "textStyle": {
       "_class": "textStyle",
       "encodedAttributes": {
-        "NSColor": {
-          "_archive": [
-            {
-              "$version": 100000,
-              "$objects": [
-                "$null",
-                {
-                  "NSRGB": {
-                    "type": "Buffer",
-                    "data": "0.6196078431 0.6235294118 0.6196078431\u0000"
-                  },
-                  "NSColorSpace": 1,
-                  "NSCustomColorSpace": {
-                    "UID": 2
-                  },
-                  "$class": {
-                    "UID": 4
-                  }
-                },
-                {
-                  "NSID": 1,
-                  "$class": {
-                    "UID": 3
-                  }
-                },
-                {
-                  "$classname": "NSColorSpace",
-                  "$classes": [
-                    "NSColorSpace",
-                    "NSObject"
-                  ]
-                },
-                {
-                  "$classname": "NSColor",
-                  "$classes": [
-                    "NSColor",
-                    "NSObject"
-                  ]
-                }
-              ],
-              "$archiver": "NSKeyedArchiver",
-              "$top": {
-                "root": {
-                  "UID": 1
-                }
-              }
-            }
-          ]
-        },
+        "NSKern": 0.2727273,
         "MSAttributedStringFontAttribute": {
           "_archive": [
             {
@@ -200,7 +152,55 @@
             }
           ]
         },
-        "NSKern": 0.2727273
+        "NSColor": {
+          "_archive": [
+            {
+              "$version": 100000,
+              "$objects": [
+                "$null",
+                {
+                  "NSRGB": {
+                    "type": "Buffer",
+                    "data": "1 1 1\u0000"
+                  },
+                  "NSColorSpace": 1,
+                  "NSCustomColorSpace": {
+                    "UID": 2
+                  },
+                  "$class": {
+                    "UID": 4
+                  }
+                },
+                {
+                  "NSID": 1,
+                  "$class": {
+                    "UID": 3
+                  }
+                },
+                {
+                  "$classname": "NSColorSpace",
+                  "$classes": [
+                    "NSColorSpace",
+                    "NSObject"
+                  ]
+                },
+                {
+                  "$classname": "NSColor",
+                  "$classes": [
+                    "NSColor",
+                    "NSObject"
+                  ]
+                }
+              ],
+              "$archiver": "NSKeyedArchiver",
+              "$top": {
+                "root": {
+                  "UID": 1
+                }
+              }
+            }
+          ]
+        }
       }
     }
   },
@@ -250,7 +250,7 @@
                   "UID": 20
                 },
                 {
-                  "UID": 21
+                  "UID": 24
                 }
               ],
               "$class": {
@@ -259,8 +259,8 @@
             },
             "NSParagraphStyle",
             "MSAttributedStringFontAttribute",
-            "NSKern",
             "NSColor",
+            "NSKern",
             {
               "NSTabStops": {
                 "UID": 0
@@ -345,24 +345,23 @@
                 "NSObject"
               ]
             },
-            0.2727273,
             {
               "NSRGB": {
                 "type": "Buffer",
-                "data": "0.6196078431 0.6235294118 0.6196078431\u0000"
+                "data": "1 1 1\u0000"
               },
               "NSColorSpace": 1,
               "NSCustomColorSpace": {
-                "UID": 22
+                "UID": 21
               },
               "$class": {
-                "UID": 24
+                "UID": 23
               }
             },
             {
               "NSID": 1,
               "$class": {
-                "UID": 23
+                "UID": 22
               }
             },
             {
@@ -379,6 +378,7 @@
                 "NSObject"
               ]
             },
+            0.2727273,
             {
               "$classname": "NSDictionary",
               "$classes": [
